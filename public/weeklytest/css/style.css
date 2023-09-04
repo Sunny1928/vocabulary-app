@@ -1,0 +1,248 @@
+:root{
+    --topic: #75a1da;
+    --black: #111;
+    --white: #fff;
+    --blue: #d9e7ef;
+    --pink: #f4dce8;
+    --green: #a5eea1;
+    --font: #555;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+nav{
+    background: var(--topic);
+    display: flex;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+.nav-left{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Gideon Roman', cursive;
+}
+.nav-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-right ul{
+    display: flex;
+    align-items: center;
+}
+.nav-right ul li{
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.nav-right ul li:hover{
+    filter: brightness(110%);
+}
+
+/*-------title-----------*/
+/*-------title-----------*/
+
+.content{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    min-width: 400px;
+}
+.title-left{
+    width: 30%;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    
+}
+.title-left h1{
+    margin: 20px;
+    color: var(--topic);
+}
+button{
+    outline: none;
+    background: var(--white);
+    border: 0;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.title-left button{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 0;
+    font-size: 1rem;
+}
+.title-left button:hover{
+    color: var(--topic);
+}
+.title-right{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 40px;
+}
+.title-right .search{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    background: var(--topic);
+    border-radius: 100px;
+    margin-right: 10px;
+    justify-content: center;
+}
+.title-right .search select{
+    width: 70%;
+    outline: none;
+    border: 0;
+    height: 80%;
+    margin-left: 5px;
+    background: var(--topic);
+    color:var(--white);
+}
+.title-right .fa-magnifying-glass{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    color: var(--white);
+    background: var(--topic);
+}
+.title-right button{
+    color: var(--white);
+    background: var(--topic);
+}
+
+/*--------weekly test------------*/
+.test{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.selections{
+    color: var(--font);
+    background: rgb(235, 238, 193);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    padding-left: 20px;
+
+    position: sticky;
+}
+.selections .selection {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+.selections .selection b{
+    width: 28px;
+}
+.answers{
+    color: var(--font);
+    background: rgb(235, 238, 193);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    padding-left: 20px;
+    padding: 10px;
+}
+.answers .answer{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.answers .answer input{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.submitBtn{
+    display:flex;
+    justify-content: center;
+}
+
+#send{
+    margin-top: 20px;
+    border: none;
+    background: #ecf7c4;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+.deleteline::before{
+    position:absolute;
+    content:'';
+    border: 1px solid #aaa;
+    width: 25%;
+}
+.deleteline{
+    color: #aaa;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #999;
+    padding: 20px;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 450px){
+    nav{
+        width: 100%;
+        font-size: 0.5rem;
+    }
+    .nav-left{
+        font-size: 1.5rem;
+    }
+    .nav-left ul li{
+        padding: 3px;
+    }
+    .content{
+        min-width: 350px;
+    }
+    .title-left{
+        width: 50%;
+        font-size:0.8rem;
+
+    }
+    .title-right{
+        width: 50%;
+        font-size:1rem;
+    }
+    button{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .test{
+        display:grid;
+        grid-template-columns: 1fr;
+        font-size: 0.8rem;
+    }
+    footer{
+        font-size: 0.5rem;
+    }
+}

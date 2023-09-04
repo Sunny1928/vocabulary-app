@@ -1,0 +1,38 @@
+
+<div class="content">
+    <div class="test">
+        <div class="selections">
+            <% for(i=0; i<JSON.parse(answers.randomData).length; i++){ %> 
+            <div class="selection">
+                <b><%= i+1 %>.</b>
+                <p><%= JSON.parse(answers.randomData)[i].meaning %>(<%= JSON.parse(answers.randomData)[i].ad %>)</p>
+            </div>
+            <% } %>
+        </div>
+    
+        <form action="">
+            <div class="answers">
+            <% for(i=0; i<data.length; i++){ %> 
+                <% if(wrongArray.includes(i)){%>
+                    <div class="answer wrong" >
+                        <h5 class="answerBox"><%=answers[i]%>.</h5>
+                        <div class="ans">
+                            <p><%=data[i].word%></p>
+                            <p class="ansMeaning"><%=data[i].meaning%></p>
+                        </div>
+                    </div>
+                <% } else{ %> 
+                    <div class="answer" >
+                        <h5 class="answerBox"><%=answers[i]%>.</h5>
+                        <div class="ans">
+                            <p><%=data[i].word%></p>
+                            <p class="ansMeaning"><%=data[i].meaning%></p>
+                        </div>
+                    </div>
+                <% } %> 
+            <% } %>
+            </div>
+        </form> 
+    
+    </div>
+</div> 

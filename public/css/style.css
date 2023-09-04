@@ -1,0 +1,129 @@
+:root{
+    --topic: #75a1da;
+    --black: #111;
+    --white: #fff;
+    --blue: #d9e7ef;
+    --pink: #f4dce8;
+    --green: #4DD447;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+nav{
+    background: var(--topic);
+    display: flex;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+.nav-left{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Gideon Roman', cursive;
+}
+.nav-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-right ul{
+    display: flex;
+    align-items: center;
+}
+.nav-right ul li{
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.nav-right ul li:hover{
+    filter: brightness(110%);
+}
+body{
+    height: 100vh;
+    background: var(--topic);
+    color: #fff;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    height: 80%;
+
+}
+h1:nth-child(2){
+    animation: show1 1s infinite;    
+}
+h1:nth-child(3){
+    animation: show2 1s infinite;    
+}
+h1:nth-child(4){
+    animation: show3 1s infinite;    
+}
+@keyframes show1{
+    0%{opacity: 0;}
+    33%{opacity: 1;}
+    66%{opacity: 1;}
+    100%{opacity: 1;}
+}
+@keyframes show2{
+    0%{opacity: 0;}
+    33%{opacity: 0;}
+    66%{opacity: 1;}
+    100%{opacity: 1;}
+}
+@keyframes show3{
+    0%{opacity: 0;}
+    33%{opacity: 0;}
+    66%{opacity: 0;}
+    100%{opacity: 1;}
+}
+h1{
+    display: flex;
+    align-items: center;
+    font-size: 5rem;
+
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #999;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: #ddd;
+}
+
+
+@media (max-width: 500px){
+    nav{
+        font-size: 0.5rem;
+    }
+    .nav-left{
+        font-size: 1.5rem;
+    }
+    .nav-left ul li{
+        padding: 3px;
+    }
+    footer{
+        font-size: 0.5rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,50 @@
+<div class="content">
+    <div class="title-left">
+        
+        <h1>UNIT <%=id%></h1>
+        <a href="<%=parseInt(id)-1%>"><button class="left" onclick="leftUnit()"><i class="fa fa-caret-left"></i></button></a>
+        <a href="<%=parseInt(id)+1%>"><button class="right" onclick="rightUnit()"><i class="fa fa-caret-right"></i></button></a>
+    </div>
+    <div class="title-right">
+        <div class="search" >
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <select name="unit"id="search" onchange="window.location.href=this.value">
+                <%for(i=1; i<maxUnit; i++){%>
+                    <option <% if(parseInt(id)==i){ %> selected <%}%>  %>value=<%=i%>>unit <%=i%></option>
+                <% }%>
+            </select>
+            
+        </div>
+        <button class="renew" onclick="window.location.href=this.value"><i class="fa-solid fa-arrows-rotate"></i></button>
+    </div>
+    
+</div>
+<div class="content">
+    <div class="test">
+    <div class="selections">
+        <% for(i=0; i<randomData.length; i++){ %> 
+        <div class="selection" id=i onclick="deleteLine(this)">
+            <b><%= i+1 %></b>
+            <p><%= randomData[i].meaning %>(<%= randomData[i].ad %>)</p>
+        </div>
+        <% } %>
+    </div>
+    
+    <form action="" method="POST">
+        <div class="answers">
+        <% for(i=0; i<data.length; i++){ %> 
+        <div class="answer" onclick="inputAns(this)">
+            <input type="text" name=<%= i %> autocomplete="off" required>
+            <p><%=data[i].word%></p>
+        </div>
+        <% } %>
+        </div>
+        <input value="<%= JSON.stringify(randomData)%>" name="randomData" hidden>
+        <div class="submitBtn">
+            <input type="submit" id="send" value="submit">
+        </div>
+    </form> 
+    
+    </div>
+</div>
+

@@ -1,0 +1,259 @@
+:root{
+    --topic: #75a1da;
+    --black: #111;
+    --white: #fff;
+    --blue: #d9e7ef;
+    --pink: #f4dce8;
+    --font: #555;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+nav{
+    width: 100%;
+    background: var(--topic);
+    display: flex;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    justify-content: space-between;
+    font-size: 1rem;
+}
+.nav-left{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Gideon Roman', cursive;
+}
+.nav-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-right ul{
+    display: flex;
+    align-items: center;
+}
+.nav-right ul li{
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.nav-right ul li:hover{
+    filter: brightness(110%);
+}
+
+
+/*-------title-----------*/
+
+.content{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    min-width: 400px;
+}
+.title-left{
+    width: 30%;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    
+}
+.title-left h1{
+    margin: 20px;
+    color: var(--topic);
+}
+button{
+    outline: none;
+    background: var(--white);
+    border: 0;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.title-left button{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 0;
+    font-size: 1rem;
+}
+.title-left button:hover{
+    color: var(--topic);
+}
+.title-right{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 40px;
+}
+.title-right .search{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    background: var(--topic);
+    border-radius: 100px;
+    margin-right: 10px;
+    justify-content: center;
+}
+.title-right .search select{
+    width: 70%;
+    outline: none;
+    border: 0;
+    height: 80%;
+    margin-left: 5px;
+    background: var(--topic);
+    color:var(--white);
+}
+.title-right .fa-magnifying-glass{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    color: var(--white);
+    background: var(--topic);
+}
+.title-right button{
+    color: var(--white);
+    background: var(--topic);
+}
+
+.vocs{
+    width: 60%;
+    min-width: 400px;
+}
+.voc-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: var(--Font);
+}
+.voc{
+    display:flex;
+    align-items: center;
+    width: 45%;
+}
+h3{
+    color: black;
+}
+.meaning{
+    width: 32%;
+}
+.btns{
+    width: 23%;
+    display:flex;
+    justify-content: end;
+}
+.btns button{
+    font-size: 1rem;
+    margin: 0 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+}
+.btns button:first-child:hover{
+    background: var(--blue);
+    color: #fff;
+}
+.btns button:last-child:hover{
+    background: var(--pink);
+    color: #fff;
+}
+.btns button:first-child{
+    color: var(--blue);
+    background: #fff;
+    border: 1px solid var(--blue);
+    
+}
+.btns button:last-child{
+    color: var(--pink);
+    background: #fff;
+    border: 1px solid var(--pink);
+}
+.voc-container.check{
+    background: var(--blue);
+}
+.voc-container.check button:first-child{
+    color: var(--white);
+    background: var(--blue);
+    border: 1px solid var(--white);
+}
+.voc-container.fav{
+    background: var(--pink);
+}
+.voc-container.fav button:last-child{
+    color: var(--white);
+    background: var(--pink);
+    border: 1px solid var(--white);
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #999;
+    padding: 20px;
+    font-size: 0.8rem;
+}
+@media (max-width: 500px){
+    nav{
+        font-size: 0.5rem;
+    }
+    .nav-left{
+        font-size: 1.5rem;
+    }
+    .nav-left ul li{
+        padding: 3px;
+    }
+    .title-left{
+        width: 50%;
+        font-size:0.8rem;
+    }
+    .title-right{
+        width: 50%;
+        font-size:1rem;
+    }
+
+    .content{
+        min-width: 350px;
+    }
+    .vocs{
+        min-width: 350px;
+    }
+
+    .voc-container h3{
+        font-size: 1.2rem;
+    }
+    .voc-container p{
+        font-size: 1rem;
+    }
+    button{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    footer{
+        font-size: 0.5rem;
+    }
+}
+

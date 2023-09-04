@@ -1,0 +1,212 @@
+[
+    {
+        "word":"literal",
+        "ad":"adj.",
+        "meaning": "文學的"
+    },
+    {
+        "word":"literature",
+        "ad":"n.",
+        "meaning": "文學"
+    },
+    {
+        "word":"loan",
+        "ad":"n.",
+        "meaning": "貸款"
+    },
+    {
+        "word":"logic",
+        "ad":"n.",
+        "meaning": "邏輯"
+    },
+    {
+        "word":"logical",
+        "ad":"adj.",
+        "meaning": "合理的"
+    },
+    {
+        "word":"lullaby",
+        "ad":"n.",
+        "meaning": "搖籃曲"
+    },
+    {
+        "word":"marathon",
+        "ad":"n.",
+        "meaning": "馬拉松賽跑"
+    },
+    {
+        "word":"margin",
+        "ad":"n.",
+        "meaning": "頁邊空白"
+    },
+    {
+        "word":"medium",
+        "ad":"n.",
+        "meaning": "媒體(中等的)"
+    },
+    {
+        "word":"ministry",
+        "ad":"n.",
+        "meaning": "(政府組織)部"
+    },
+    {
+        "word": "miracle",
+        "ad":"n.",
+        "meaning": "奇蹟"
+    },
+    {
+        "word":"moral",
+        "ad":"adj.",
+        "meaning": "道義上的"
+    },
+    {
+        "word":"musical",
+        "ad":"adj.",
+        "meaning": "音樂的"
+    },
+    {
+        "word":"MTV",
+        "ad":"n.",
+        "meaning": "音樂電視台"
+    },
+    {
+        "word":"mystry",
+        "ad":"n.",
+        "meaning": "神秘"
+    },
+    {
+        "word":"nationality",
+        "ad":"n.",
+        "meaning": "國籍"
+    },
+    {
+        "word":"negotiate",
+        "ad":"v.",
+        "meaning": "談判"
+    },
+    {
+        "word":"noun",
+        "ad":"n.",
+        "meaning": "名詞"
+    },
+    {
+        "word":"opera",
+        "ad":"n.",
+        "meaning": "歌劇"
+    },
+    {
+        "word":"orchestra",
+        "ad":"n.",
+        "meaning": "管弦樂團"
+    },
+    {
+        "word":"overthrow",
+        "ad":"v.",
+        "meaning": "推翻"
+    },
+    {
+        "word":"ownership",
+        "ad":"v.",
+        "meaning": "所有權"
+    },
+    {
+        "word":"panel",
+        "ad":"n.",
+        "meaning": "調查小組"
+    },
+    {
+        "word":"paradise",
+        "ad":"n.",
+        "meaning": "天堂"
+    },
+    {
+        "word":"participle",
+        "ad":"n.",
+        "meaning": "分詞"
+    },
+    {
+        "word":"perfection",
+        "ad":"n.",
+        "meaning": "完美"
+    },
+    {
+        "word":"philosophical",
+        "ad":"n.",
+        "meaning": "哲學的"
+    },
+    {
+        "word":"philosophy",
+        "ad":"n.",
+        "meaning": "哲學"
+    },
+    {
+        "word":"photography",
+        "ad":"n.",
+        "meaning": "攝影"
+    },
+    {
+        "word":"physics",
+        "ad":"n.",
+        "meaning": "物理"
+    },
+    {
+        "word":"plot",
+        "ad":"n.",
+        "meaning": "情節"
+    },
+    {
+        "word":"plural",
+        "ad":"adj.",
+        "meaning": "複數的"
+    },
+    {
+        "word":"political",
+        "ad":"adj.",
+        "meaning": "政治的"
+    },
+    {
+        "word":"politics",
+        "ad":"n.",
+        "meaning": "政治"
+    },
+    {
+        "word":"poll",
+        "ad":"n.",
+        "meaning": "民意調查"
+    },
+    {
+        "word":"portrait",
+        "ad":"n.",
+        "meaning": "肖像畫"
+    },
+    {
+        "word":"postage",
+        "ad":"n.",
+        "meaning": "郵資"
+    },
+    {
+        "word":"poster",
+        "ad":"n.",
+        "meaning": "海報"
+    },
+    {
+        "word":"prayer",
+        "ad":"n.",
+        "meaning": "祈禱"
+    },
+    {
+        "word":"predict",
+        "ad":"v.",
+        "meaning": "預言"
+    },
+    {
+        "word":"preposition",
+        "ad":"n.",
+        "meaning": "介系詞"
+    },
+    {
+        "word":"presentation",
+        "ad":"n.",
+        "meaning": "表現"
+    }
+]

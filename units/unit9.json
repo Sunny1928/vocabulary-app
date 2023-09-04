@@ -1,0 +1,327 @@
+[
+    {
+        "word":"wine tasting",
+        "ad":"n.",
+        "meaning": "品嚐葡萄酒"
+    },
+    {
+        "word":"aftertaste",
+        "ad":"n.",
+        "meaning": "餘味"
+    },
+    {
+        "word":"flavor",
+        "ad":"n.",
+        "meaning": "味道"
+    },
+    {
+        "word":"breathe",
+        "ad":"v.",
+        "meaning": "醒酒"
+    },
+    {
+        "word":"dry",
+        "ad":"adj.",
+        "meaning": "無甜味的"
+    },
+    {
+        "word":"swirl",
+        "ad":"v.",
+        "meaning": "搖酒"
+    },
+    {
+        "word":"aroma",
+        "ad":"n.",
+        "meaning": "香氣"
+    },
+    {
+        "word":"texture",
+        "ad":"n.",
+        "meaning": "質地"
+    },
+    {
+        "word":"corkscrew",
+        "ad":"v.",
+        "meaning": "開瓶器"
+    },
+    {
+        "word": "caffeine",
+        "ad":"n.",
+        "meaning": "咖啡因"
+    },
+    {
+        "word":"jittery",
+        "ad":"adj.",
+        "meaning": "顫抖的"
+    },
+    {
+        "word":"decaffeinated",
+        "ad":"adj.",
+        "meaning": "無咖啡因的"
+    },
+    {
+        "word":"grounds",
+        "ad":"n.",
+        "meaning": "咖啡粉"
+    },
+    {
+        "word":"strong",
+        "ad":"adj.",
+        "meaning": "濃的"
+    },
+    {
+        "word":"barista",
+        "ad":"n.",
+        "meaning": "咖啡師"
+    },
+    {
+        "word":"awaken",
+        "ad":"v.",
+        "meaning": "醒來"
+    },
+    {
+        "word":"delightful",
+        "ad":"adj.",
+        "meaning": "愉快的"
+    },
+    {
+        "word":"deit",
+        "ad":"n.",
+        "meaning": "節食；飲食"
+    },
+    {
+        "word":"consume",
+        "ad":"v.",
+        "meaning": "吃；喝"
+    },
+    {
+        "word":"tasty",
+        "ad":"adj.",
+        "meaning": "美味的"
+    },
+    {
+        "word":"nuturition",
+        "ad":"n.",
+        "meaning": "營養"
+    },
+    {
+        "word":"organic",
+        "ad":"adj.",
+        "meaning": "有機的"
+    },
+    {
+        "word":"vitamin",
+        "ad":"n.",
+        "meaning": "維他命"
+    },
+    {
+        "word":"appetite",
+        "ad":"n.",
+        "meaning": "食慾"
+    },
+    {
+        "word":"vegitarian",
+        "ad":"n.",
+        "meaning": "素食者"
+    },
+    {
+        "word":"gluten-free",
+        "ad":"adj.",
+        "meaning": "無麩質的"
+    },
+    {
+        "word":"takeout",
+        "ad":"n.",
+        "meaning": "外帶餐點"
+    },
+    {
+        "word":"well-done",
+        "ad":"adj.",
+        "meaning": "全熟"
+    },
+    {
+        "word":"reservation",
+        "ad":"n.",
+        "meaning": "預約"
+    },
+    {
+        "word":"medium",
+        "ad":"adj.",
+        "meaning": "五分熟"
+    },
+    {
+        "word":"dessert",
+        "ad":"v.",
+        "meaning": "甜點"
+    },
+    {
+        "word":"sides",
+        "ad":"n.",
+        "meaning": "副餐"
+    },
+    {
+        "word":"rare",
+        "ad":"adj.",
+        "meaning": "一分熟的"
+    },
+    {
+        "word":"beer",
+        "ad":"n.",
+        "meaning": "啤酒"
+    },
+    {
+        "word":"cocktail",
+        "ad":"n.",
+        "meaning": "雞尾酒"
+    },
+    {
+        "word":"pint",
+        "ad":"n.",
+        "meaning": "品脫"
+    },
+    {
+        "word":"wine",
+        "ad":"n.",
+        "meaning": "葡萄酒"
+    },
+    {
+        "word":"elegant",
+        "ad":"adj.",
+        "meaning": "優雅的"
+    },
+    {
+        "word":"alcohol",
+        "ad":"n.",
+        "meaning": "酒精"
+    },
+    {
+        "word":"pitche",
+        "ad":"n.",
+        "meaning": "壺"
+    },
+    {
+        "word":"dairy",
+        "ad":"n.",
+        "meaning": "努製品"
+    },
+    {
+        "word":"etiquette",
+        "ad":"n.",
+        "meaning": "禮儀"
+    },
+    {
+       "word":"appropriately",
+        "ad":"adv.",
+        "meaning": "適當地"
+    },
+    {
+        "word":"conduct",
+        "ad":"v.",
+        "meaning": "舉止"
+    },
+    {
+        "word":"respectful",
+        "ad":"adj.",
+        "meaning": "尊敬人的"
+    },
+    {
+        "word":"courteous",
+        "ad":"adj.",
+        "meaning": "有禮貌的"
+    },
+    {
+        "word":"presentable",
+        "ad":"adj.",
+        "meaning": "體面的"
+    },
+    {
+        "word":"slightly",
+        "ad":"adv.",
+        "meaning": "稍微"
+    },
+    {
+        "word":"essential",
+        "ad":"adj.",
+        "meaning": "必要的"
+    },
+    {
+        "word":"make a toast",
+        "ad":"v.",
+        "meaning": "舉杯祝賀"
+    },
+    {
+        "word":"flatter",
+        "ad":"v.",
+        "meaning": "討好"
+    },
+    {
+        "word":"rehearse",
+        "ad":"v.",
+        "meaning": "排練"
+    },
+    {
+        "word":"here's to...",
+        "ad":"ph.",
+        "meaning": "為...乾杯"
+    },
+    {
+        "word":"applaud",
+        "ad":"v.",
+        "meaning": "鼓掌"
+    },
+    {
+        "word":"cheers",
+        "ad":"ph.",
+        "meaning": "乾杯"
+    },
+    {
+        "word":"honor",
+        "ad":"n.",
+        "meaning": "向...致敬"
+    },
+    {
+        "word":"brilliant",
+        "ad":"adj.",
+        "meaning": "出色的"
+    },
+    {
+        "word":"misfortune",
+        "ad":"n.",
+        "meaning": "不幸"
+    },
+    {
+        "word":"sincere",
+        "ad":"adj.",
+        "meaning": "真誠的"
+    },
+    {
+        "word":"grieve",
+        "ad":"v.",
+        "meaning": "悲痛"
+    },
+    {
+        "word":"despair",
+        "ad":"n.",
+        "meaning": "絕望"
+    },
+    {
+        "word":"illness",
+        "ad":"n.",
+        "meaning": "生病"
+    },
+    {
+        "word":"kindness",
+        "ad":"n.",
+        "meaning": "體貼"
+    },
+    {
+        "word":"sympathy",
+        "ad":"n.",
+        "meaning": "同情"
+    },
+    {
+        "word":"deceased",
+        "ad":"adj.",
+        "meaning": "去世的"
+    }
+]

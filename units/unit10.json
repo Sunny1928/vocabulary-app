@@ -1,0 +1,282 @@
+[
+    {
+        "word":"personal",
+        "ad":"adj.",
+        "meaning": "私人的"
+    },
+    {
+        "word":"distract",
+        "ad":"v.",
+        "meaning": "使分心"
+    },
+    {
+        "word":"interrupt",
+        "ad":"v.",
+        "meaning": "打斷"
+    },
+    {
+        "word":"gesture",
+        "ad":"n.",
+        "meaning": "用動作示意"
+    },
+    {
+        "word":"meaningful",
+        "ad":"adj.",
+        "meaning": "有意義的"
+    },
+    {
+        "word":"fidget",
+        "ad":"v.",
+        "meaning": "坐立不安"
+    },
+    {
+        "word":"nod",
+        "ad":"v.",
+        "meaning": "點頭贊同"
+    },
+    {
+        "word":"pay attention to",
+        "ad":"ph.",
+        "meaning": "注意"
+    },
+    {
+        "word":"civilization",
+        "ad":"n.",
+        "meaning": "文明世界"
+    },
+    {
+        "word": "misunderstanding",
+        "ad":"n.",
+        "meaning": "誤解"
+    },
+    {
+        "word":"diversity",
+        "ad":"n.",
+        "meaning": "多樣性"
+    },
+    {
+        "word":"global",
+        "ad":"adj.",
+        "meaning": "全球的"
+    },
+    {
+        "word":"festival",
+        "ad":"n.",
+        "meaning": "節日"
+    },
+    {
+        "word":"misconception",
+        "ad":"n.",
+        "meaning": "錯誤想法"
+    },
+    {
+        "word":"local",
+        "ad":"adj.",
+        "meaning": "當地的"
+    },
+    {
+        "word":"abroad",
+        "ad":"adv.",
+        "meaning": "到國外"
+    },
+    {
+        "word":"worthwile",
+        "ad":"adj.",
+        "meaning": "值得花時間的"
+    },
+    {
+        "word":"courage",
+        "ad":"n.",
+        "meaning": "勇氣"
+    },
+    {
+        "word":"wisdom",
+        "ad":"n.",
+        "meaning": "智慧"
+    },
+    {
+        "word":"trivial",
+        "ad":"adj.",
+        "meaning": "微不足道的"
+    },
+    {
+        "word":"spiritual",
+        "ad":"adj.",
+        "meaning": "有關宗教的"
+    },
+    {
+        "word":"aspirations",
+        "ad":"n.",
+        "meaning": "抱負"
+    },
+    {
+        "word":"belong",
+        "ad":"v.",
+        "meaning": "歸屬"
+    },
+    {
+        "word":"message",
+        "ad":"n.",
+        "meaning": "訊息"
+    },
+    {
+        "word":"pratice",
+        "ad":"v.",
+        "meaning": "練習"
+    },
+    {
+        "word":"measurable",
+        "ad":"adj.",
+        "meaning": "顯著的"
+    },
+    {
+        "word":"recogonition",
+        "ad":"n.",
+        "meaning": "認可"
+    },
+    {
+        "word":"objective",
+        "ad":"n.",
+        "meaning": "目標"
+    },
+    {
+        "word":"satisfying",
+        "ad":"adj.",
+        "meaning": "令人滿意的"
+    },
+    {
+        "word":"effort",
+        "ad":"n.",
+        "meaning": "努力"
+    },
+    {
+        "word":"proud",
+        "ad":"adj.",
+        "meaning": "自豪的"
+    },
+    {
+        "word":"expand",
+        "ad":"v.",
+        "meaning": "擴大"
+    },
+    {
+        "word":"confidence",
+        "ad":"n.",
+        "meaning": "信心"
+    },
+    {
+        "word":"arrogant",
+        "ad":"adj.",
+        "meaning": "傲慢的"
+    },
+    {
+        "word":"optimistic",
+        "ad":"adj.",
+        "meaning": "樂觀的"
+    },
+    {
+        "word":"pretentious",
+        "ad":"adj.",
+        "meaning": "自負的"
+    },
+    {
+        "word":"mindset",
+        "ad":"n.",
+        "meaning": "心態"
+    },
+    {
+        "word":"awkward",
+        "ad":"adj.",
+        "meaning": "尷尬的"
+    },
+    {
+        "word":"incompetent",
+        "ad":"adj.",
+        "meaning": "無能力的"
+    },
+    {
+        "word":"experience",
+        "ad":"n.",
+        "meaning": "經驗"
+    },
+    {
+        "word":"empower",
+        "ad":"v.",
+        "meaning": "授權"
+    },
+    {
+        "word":"certain",
+        "ad":"adj.",
+        "meaning": "肯定的"
+    },
+    {
+       "word":"determination",
+        "ad":"n.",
+        "meaning": "決心"
+    },
+    {
+        "word":"clout",
+        "ad":"n.",
+        "meaning": "權勢"
+    },
+    {
+        "word":"seriously",
+        "ad":"adv.",
+        "meaning": "嚴肅的"
+    },
+    {
+        "word":"vitality",
+        "ad":"n.",
+        "meaning": "活力"
+    },
+    {
+        "word":"morale",
+        "ad":"n.",
+        "meaning": "士氣"
+    },
+    {
+        "word":"vision",
+        "ad":"n.",
+        "meaning": "遠見"
+    },
+    {
+        "word":"character",
+        "ad":"n.",
+        "meaning": "角色"
+    },
+    {
+        "word":"general",
+        "ad":"adj.",
+        "meaning": "一班的"
+    },
+    {
+        "word":"crutch",
+        "ad":"n.",
+        "meaning": "依靠"
+    },
+    {
+        "word":"charming",
+        "ad":"adj.",
+        "meaning": "迷人的"
+    },
+    {
+        "word":"thesaurus",
+        "ad":"n.",
+        "meaning": "同義詞辭典"
+    },
+    {
+        "word":"descriptive",
+        "ad":"adj.",
+        "meaning": "描述的"
+    },
+    {
+        "word":"vague",
+        "ad":"adj.",
+        "meaning": "模糊的"
+    },
+    {
+        "word":"inventive",
+        "ad":"adj.",
+        "meaning": "有創造力的"
+    }
+]

@@ -1,0 +1,46 @@
+
+    
+    <div class="content">
+        <div class="title-left">
+            
+            <h1>UNIT <%=id%></h1>
+            <a href="<%=parseInt(id)-1%>"><button class="left" onclick="leftUnit()"><i class="fa fa-caret-left"></i></button></a>
+            <a href="<%=parseInt(id)+1%>"><button class="right" onclick="rightUnit()"><i class="fa fa-caret-right"></i></button></a>
+        </div>
+        <div class="title-right">
+            <div class="search" >
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <select name="unit"id="search" onchange="window.location.href=this.value">
+                    <%for(i=1; i<maxUnit; i++){%>
+                        <option <% if(parseInt(id)==i){ %> selected <%}%>  %>value=<%=i%>>unit <%=i%></option>
+                    <% }%>
+                </select>
+                
+            </div>
+            <button class="renew" onclick="window.location.href=this.value"><i class="fa-solid fa-arrows-rotate"></i></button>
+        </div>
+        
+    </div>
+    <div class="content">
+    <div class="vocs" vocs-container>
+        <% for(i=0; i<data.length; i++) {%>
+            <div>
+                <div class="voc-container" id=" voc-container">
+                    <div class="voc">
+                        <h3><%= data[i].word%></h3>
+                    </div>
+                    <div class="meaning">
+                        <p><%= data[i].ad%> <%= data[i].meaning%></p>
+                    </div>
+                    <div class="btns">
+                        <button onclick="addCheck(this)"><i class="fa-solid fa-check"></i></button>
+                        <button onclick="addFav(this)"><i class="fa-solid fa-heart"></i></button>
+                    </div>
+                </div>
+
+                <hr>
+            </div>
+         <% } %>
+    </div>
+    </div>
+
